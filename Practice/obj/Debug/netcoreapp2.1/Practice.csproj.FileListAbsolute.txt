@@ -30,3 +30,4 @@ C:\Users\Thomas\Desktop\Development\Junk\Practice\Practice\obj\Debug\netcoreapp2
 C:\Users\Thomas\Desktop\Development\Junk\Practice\Practice\obj\Debug\netcoreapp2.1\Practice.dll
 C:\Users\Thomas\Desktop\Development\Junk\Practice\Practice\obj\Debug\netcoreapp2.1\Practice.pdb
 C:\Users\Thomas\Desktop\Development\Junk\Practice\Practice\obj\Debug\netcoreapp2.1\Practice.csproj.CopyComplete
+C:\Users\Thomas\Desktop\Development\Junk\Practice\Practice\obj\Debug\netcoreapp2.1\Razor\Views\Home\Review.g.cshtml.cs

@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Practice.Models; //talks to the models folder
+using Microsoft.AspNetCore.Mvc; 
 using Practice.Data; //imports and uses the data folder
+using Practice.Models; //talks to the models folder
 
 namespace Practice.Controllers
 {
     public class HomeController : Controller
     {
+        private GameRepository _listOfGames = new GameRepository();    
+
         public IActionResult Index()   // This is an action function which matches up with the index page. It will return the "view" to the client.
         {
 

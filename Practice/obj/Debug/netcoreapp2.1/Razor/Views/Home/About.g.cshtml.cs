@@ -69,7 +69,7 @@ Write(ViewData["Title"]);
             WriteLiteral("</h2>\r\n\r\n");
             EndContext();
             BeginContext(72, 368, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "23123dfa5aa84674bd71ac9ecb3022c8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "55c7b7c86573499e9f806e476d1509e6", async() => {
                 BeginContext(78, 355, true);
                 WriteLiteral(@"
     <p>Hello! This is one of my first web-apps I've ever created. This is meant to be a place to practice my skills as a web developer. In this website you will find my personal ratings for a few video games. I hope you enjoy!</p>

@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Threading.Tasks;
-using GameReviews.Models; /// This particular line of code gets the custom created "data" in "GameReviews" to utilize the "models" folder.
+using Practice.Models; /// This particular line of code gets the custom created "data" in "GameReviews" to utilize the "models" folder.
+
 namespace Practice.Data
 {
     public class GameRepository

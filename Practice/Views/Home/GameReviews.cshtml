@@ -1,7 +1,25 @@
-﻿
+﻿@model Practice.Models.GameReview[][]
 @{
-    ViewData["Title"] = "GameReviews";
+    ViewBag.Title = "Home";
+}
+@foreach (var row in Model)
+{ 
+    <div class="row">
+        @foreach (var GameReview in row)
+        {
+            <div class="col-md-3">
+                     <h4>
+                         @Html.ActionLink(GameReview.Name, "GameReview",
+                    new { id = GameReview.Id })
+                     </h4>
+                     <a href="@Url.Action("GameReview", new { id = GameReview.Id })">
+                            <img src="~/images/@GameReview.MainPicture"
+                                alt="@GameReview.Name"
+                                class="img-responsive"/>
+                     </a>
+            </div>
+        }
+    </div>
 }
 
-<h2>GameReviews</h2>
 
